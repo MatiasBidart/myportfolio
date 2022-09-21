@@ -1,0 +1,16 @@
+.prog-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.prog-logo{
+    width: 3rem;
+}
+.prog-ttle{
+    color: white;
+    font-weight: 80;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

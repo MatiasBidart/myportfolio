@@ -1,0 +1,111 @@
+/* .card:hover{
+    background-color: #2e5fc7;
+    height: 23rem;
+    width: 18rem;
+    border-radius: 0.5rem;
+    position: relative ;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+} */
+
+
+.card:hover{
+    background-color: #0e358a;
+    height: 23rem;
+    width: 18rem;
+    border-radius: 0.5rem;
+    position: relative ;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    transition: 0.4s ease-in-out;
+    box-shadow: 2px 8px 8px rgba(7, 30, 78, .5) ;
+}
+.card:hover > ul > li {
+    opacity: 1;
+    transition: 2.2s ease-in-out;
+}
+
+
+
+
+.card > ul > li {
+    margin: 1rem;
+    opacity: 0;
+}
+.card > ul > li {
+    color: white;
+}
+
+.card-logo{
+    position: absolute;
+    width: 3rem;
+    z-index: 2;
+    left: 2.5rem;
+    opacity: 1;
+    transition: 0.2s ease;
+}
+
+.card:hover > div > .card-logo {
+    opacity: 0;
+}
+
+
+.card-logo:hover{
+    border-color: black;
+    cursor: pointer;
+    animation: logo-jump 4s infinite ease-in-out;
+}
+
+@keyframes logo-jump {
+    0%{
+        transform: rotate(0deg) ;
+
+    }
+    50%{
+        transform: rotate(360deg);
+
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+    
+}
+
+#hola:hover{
+    animation: logo-jump 4s ease-in-out;
+    cursor: pointer;
+}
+
+/* ------ */
+
+/* Phone */
+@media (max-width: 992px) {
+    .card{
+        background-color: #2e5fc7;
+        height: 8rem;
+        width: 8rem;
+        border-radius: 8rem;
+        position: relative ;
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+/* Laptop */
+@media (min-width: 992px) {
+    .card{
+        background-color: #2e5fc7;
+        height: 8rem;
+        width: 8rem;
+        border-radius: 8rem;
+        position: relative ;
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+    }
+}
+  

@@ -1,0 +1,12 @@
+footer{
+    background-color: rgb(47, 47, 59);
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    justify-items: center ;
+}
+.ftr-logo{
+    width: 2.5rem;
+}
