@@ -10,8 +10,8 @@ const Footer = () => {
             <a class="cntc-btn" href="https://github.com/MatiasBidart" target="blank">
              <img class="ftr-logo" src="https://i.postimg.cc/PfCnKknF/github.png" alt="GitHub"/>
             </a>
-            <a class="cntc-btn" href="https://www.instagram.com/matias_bidart/" target="blank">
-             <img class="ftr-logo" src="https://i.postimg.cc/nL3NY3RJ/instagram.png" alt="Instagram"/>
+            <a class="cntc-btn" href="mailto: matiasezequielbidart@gmail.com" target="blank">
+             <img class="ftr-logo" src="https://i.postimg.cc/XqhzqDTR/mail.png" alt="Send Email"/>
             </a>
             <a class="cntc-btn" href="https://api.whatsapp.com/send?phone=1123733304&amp;text=Hola" target="blank">
              <img class="ftr-logo" src="https://i.postimg.cc/kMz6Yfr7/whatsapp.png" alt="Whatsapp"/>

@@ -10,7 +10,6 @@ const Home = () => {
     <div className=' img-dv'>
     <div className='home-grid'>
       <div className='home-ttle'>
-       <h2></h2>
       </div>
       <div className='home-scroll'>
       <a class="scrll-icon" href="#start"></a>
@@ -26,9 +25,12 @@ const Home = () => {
           <h2 className='profile-ttle'>
             Sobre Mí
           </h2>
-          <p className='description'>Me defino como creativo, predispuesto y colaborativo. Amo involucrarme en proyectos que mantengan mi mente activa y me permitan seguir desarrollando habilidades.<br></br><br></br>Entre las herramientas que utilizo para progrmar se encuentran: <b>React.Js (punto fuerte), Javascript, HTML, CSS, Node.Js, etc.</b></p>
+          <p className='description'>Me defino como creativo, predispuesto y colaborativo. Amo involucrarme en proyectos que mantengan mi mente activa y me permitan seguir desarrollando habilidades.<br></br><br></br>Entre las herramientas que utilizo para programar se encuentran: <b>React.Js (punto fuerte), Javascript, HTML, CSS, Node.Js, etc.</b></p>
           <div className='align-cntr' >
-            <Link to='/experiencia' ><button><b>Comenzar Recorrido</b></button></Link>
+            <a href='https://drive.google.com/file/d/17kaLlAv8oSchm0bG_3Ww3H2K8V2pk0jR/view?usp=sharing'
+            target='blank'
+            rel= 'noreferrer noopener'
+             ><button><b>Descargar Curriculum Vitae</b></button></a>
           </div>
         </div>
       </section>
